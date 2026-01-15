@@ -1,0 +1,41 @@
+# 🧠 Cáncer de Mama — Proyecto de Titulación
+
+Este repositorio contiene el código, enlaces y recursos utilizados para el desarrollo del proyecto de titulación enfocado en el análisis y clasificación de imágenes médicas de **cáncer de mama** utilizando redes neuronales.
+solo se encuentra 2 imagenes ya que por motivos de espacio o  git hub no admite mucho GB
+---
+
+## 📦 Descarga de Imágenes
+
+Las imágenes utilizadas pertenecen a la colección **CBIS-DDSM**, disponible en el [Cancer Imaging Archive](https://www.cancerimagingarchive.net/collection/cbis-ddsm/).
+
+> ⚠️ **IMPORTANTE:** Para poder descargar las imágenes es necesario utilizar el programa **NBIA Data Retriever**, disponible en la misma página web.
+
+<img width="718" height="260" alt="image" src="https://github.com/user-attachments/assets/2025c970-7f0e-467e-8dcc-dbdbb3ab0ac4" />
+
+---
+
+## 📁 Estructura del Dataset
+
+El dataset consta de aproximadamente **2,620 imágenes** únicas, organizadas en múltiples carpetas, sumando más de **10,000 archivos**.
+
+**Contenido principal:**
+- Carpeta raíz: `manifest-ZkhPvrLo5216730872708713142`
+- Subcarpeta: `cbis-ddsm`
+- Archivo de metadatos (`metadata.csv`) que contiene información clave como tipo de cáncer asociado a cada imagen.
+
+---
+
+## 🧬 Descripción Técnica
+
+En este repositorio se incluyen los scripts necesarios para ejecutar el proyecto de forma local. A continuación, el flujo de trabajo:
+
+### 1. Conversión de Imágenes
+
+Las imágenes originales están en formato **DICOM**, pero se convirtieron a **PNG** para facilitar su lectura. Aunque DICOM conserva más información, puede dificultar la lectura automática por tener demasiados metadatos innecesarios para la tarea de clasificación.
+
+### 2. Preprocesamiento
+
+- Se validaron rutas y nombres de archivo.
+- Se asignó a cada imagen su clase correspondiente según el archivo `metadata.csv`.
+
+
