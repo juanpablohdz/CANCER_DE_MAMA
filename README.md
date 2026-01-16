@@ -82,9 +82,9 @@ Los notebooks deben ejecutarse en el siguiente orden:
 
 ---
 
-## 📊 Resultados — Mapas de Activación Convolucional
+## 📊 Resultados — Matrices de confusión 
 
-A continuación se presentan ejemplos de los **mapas de activación convolucional** obtenidos para cada arquitectura evaluada:
+A continuación se presentan ejemplos de las **Matrices de confusión** obtenidos para cada arquitectura evaluada:
 
 ### Xception
 <img width="487" height="499" alt="Xception" src="https://github.com/user-attachments/assets/f430cf2c-9066-4348-b29d-fe676dc2c0d9" />
