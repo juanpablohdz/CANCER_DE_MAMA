@@ -1,8 +1,19 @@
-# Cáncer de Mama — Proyecto de Titulación
+# Cáncer de Mama — Proyecto
 
 Este repositorio contiene el código, notebooks y recursos utilizados para el desarrollo del **proyecto de titulación**, enfocado en el **análisis y clasificación de imágenes médicas de cáncer de mama** mediante el uso de **redes neuronales convolucionales preentrenadas**.
 
 Por motivos de **espacio y limitaciones de GitHub**, únicamente se incluyen **dos imágenes de ejemplo**. El dataset completo debe descargarse desde la fuente oficial.
+
+---
+## 🧪 Entorno de Desarrollo
+
+El proyecto fue desarrollado de forma **local** utilizando **Anaconda** con un **entorno virtual en Python 3.10**, ya que esta es la versión con la que se diseñó y probó todo el código del proyecto.
+
+El entrenamiento y evaluación de los modelos se realizaron con **TensorFlow**, el cual presenta compatibilidad estable con **Python 3.10**. Por esta razón, es **indispensable** que todas las librerías utilizadas se encuentren instaladas y actualizadas para esta misma versión de Python.
+
+El uso de versiones diferentes de Python o dependencias incompatibles puede provocar **errores de versión**, fallos en la ejecución del código o comportamientos inesperados durante el entrenamiento de las redes neuronales.
+
+---
 
 ---
 
