@@ -5,7 +5,7 @@ Este repositorio contiene el código, notebooks y recursos utilizados para el de
 Por motivos de **espacio y limitaciones de GitHub**, únicamente se incluyen **dos imágenes de ejemplo**. El dataset completo debe descargarse desde la fuente oficial.
 
 ---
-## 🧪 Entorno de Desarrollo
+##  Entorno de Desarrollo
 
 El proyecto fue desarrollado de forma **local** utilizando **Anaconda** con un **entorno virtual en Python 3.10**, ya que esta es la versión con la que se diseñó y probó todo el código del proyecto.
 
@@ -13,11 +13,11 @@ El entrenamiento y evaluación de los modelos se realizaron con **TensorFlow**, 
 
 El uso de versiones diferentes de Python o dependencias incompatibles puede provocar **errores de versión**, fallos en la ejecución del código o comportamientos inesperados durante el entrenamiento de las redes neuronales.
 
----
+
 
 ---
 
-## 📦 Descarga de Imágenes
+## Descarga de Imágenes
 
 Las imágenes utilizadas pertenecen a la colección **CBIS-DDSM**, disponible en el **Cancer Imaging Archive (TCIA)**:
 
@@ -29,7 +29,7 @@ Las imágenes utilizadas pertenecen a la colección **CBIS-DDSM**, disponible en
 
 ---
 
-## 📁 Estructura del Dataset
+##  Estructura del Dataset
 
 El dataset consta de aproximadamente **10,240 archivos de imágenes únicas**, organizadas en múltiples carpetas.
 
@@ -40,7 +40,7 @@ El dataset consta de aproximadamente **10,240 archivos de imágenes únicas**, o
 
 ---
 
-## 🧬 Descripción Técnica del Proyecto
+##  Descripción Técnica del Proyecto
 
 Este repositorio incluye los scripts y notebooks necesarios para ejecutar el proyecto de forma local o en **Google Colab**. El flujo general de trabajo es el siguiente:
 
@@ -58,9 +58,9 @@ Aunque DICOM conserva mayor información médica, incluye metadatos que no son n
 
 ---
 
-## ⚙️ Código Fuente y Modelos
+##  Código Fuente y Modelos
 
-### 🔁 Notebooks (Google Colab)
+###  Notebooks (Google Colab)
 
 Los notebooks deben ejecutarse en el siguiente orden:
 
@@ -75,14 +75,14 @@ Los notebooks deben ejecutarse en el siguiente orden:
 
 ---
 
-## 📌 Notas Importantes
+##  Notas Importantes
 
 - Para realizar pruebas es fundamental **crear una copia de las imágenes originales antes de redimensionarlas**, ya que reducir la resolución y posteriormente aumentarla provoca pérdida irreversible de información.
 - El código permite ejecutar pruebas con los datos previamente limpiados, **antes de modificar el formato o tamaño de las imágenes**, con el fin de validar el flujo de trabajo.
 
 ---
 
-## 📊 Resultados — Matrices de confusión 
+##  Resultados — Matrices de confusión 
 
 A continuación se presentan ejemplos de las **Matrices de confusión** obtenidos para cada arquitectura evaluada:
 
@@ -97,7 +97,7 @@ A continuación se presentan ejemplos de las **Matrices de confusión** obtenido
 
 ---
 
-## 📬 Contacto
+##  Contacto
 
 Para cualquier duda o aclaración relacionada con este proyecto:
 
